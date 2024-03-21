@@ -7,6 +7,16 @@ plugins:
       lang: de
   - git-revision-date-localized:
       enable_creation_date: true
+
+extra:
+  homepage: https://turniptales.net
+  social:
+    - icon: material/forum
+      link: https://forum.turniptales.net/
+      name: Forum
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/turniptales
+    
   
 markdown_extensions:
   - attr_list
@@ -64,6 +74,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Light-Mode
-  
+  extra_css:
+  - stylesheets/extra.css
 
 extra_javascript: ['imprint.js']
