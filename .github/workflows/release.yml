@@ -30,3 +30,4 @@ jobs:
 
       - name: 🔨 Build and deploy mkdocs
         run: mkdocs gh-deploy --force
+
