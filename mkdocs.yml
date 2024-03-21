@@ -74,7 +74,8 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Light-Mode
-  extra_css:
+  
+extra_css:
   - stylesheets/extra.css
 
 extra_javascript: ['imprint.js']
