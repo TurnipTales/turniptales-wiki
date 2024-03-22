@@ -2,31 +2,31 @@ name: Release
 
 on:
   push:
-    branches:
-      - 'main'
-      
+    branches: [ "main" ]
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
 
 jobs:
-  build:
+  release:
 
+    name: 🎉 Release TurnipTales Wiki
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - name: 🐍 Set up Python
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: 3.x
 
-      - name: 📦 Install mkdocs dependencies
+      - name: Install mkdocs dependencies
         run: |
           pip install mkdocs-material
           pip install mkdocs-git-revision-date-localized-plugin
           pip install mkdocs-glightbox 
 
-      - name: 🔨 Build and deploy mkdocs
+      - name: Build and deploy mkdocs
         run: mkdocs gh-deploy --force
