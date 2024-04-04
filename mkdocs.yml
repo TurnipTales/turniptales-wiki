@@ -1,6 +1,23 @@
 site_name: TurnipTales Wiki
 
 nav:
+  - Allgemein:
+    - Startseite: allgemein/startseite.md
+  - Fraktionen:
+      - Allgemein: fraktionen/allgemein.md
+      - Staatliche Fraktionen:
+        - Stadtverwaltung: fraktionen/stadtverwaltung.md
+        - Bundesnachrichtendienst: fraktionen/bundesnachrichtendienst.md
+        - Polizei: fraktionen/polizei.md
+        - Rettungsdienst: fraktionen/rettungsdienst.md
+      - Kriminelle Organisationen:
+        - Cali Kartell: ko/calikartell.md
+        - Elvetias: ko/elvetias.md
+        - La Rose Noire: ko/larosenoire.md
+        - Northside Blood Family: ko/northsidebloodfamily.md
+        - Pruszków Familie: ko/pruszkowfamilie.md
+        - Söldner: ko/söldner.md
+
 
 plugins:
   - search: 
