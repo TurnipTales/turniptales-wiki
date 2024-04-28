@@ -2,7 +2,7 @@ site_name: TurnipTales Wiki
 
 nav:
   - Allgemein:
-    - Startseite: allgemein/startseite.md
+    - Startseite: index.md
   - Fraktionen:
       - Allgemein: fraktionen/allgemein.md
       - Staatliche Fraktionen:

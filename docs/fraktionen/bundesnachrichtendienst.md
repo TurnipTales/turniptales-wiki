@@ -18,5 +18,14 @@ Aufgabengebiete der RRU:<br>
 ??? note "/spycall [Person]"
     Der BND kann mit diesem Command Telefonate abhören.
 
-??? note "/asservatenkammer"
+??? note "/checkpalpay [Person]"
+    Der BND kann mit diesem Command die PalPay Transaktionen einer Person einsehen.
+
+??? note "/locate [Person]"
+    Der BND kann mit diesem Command eine Person orten.
+
+??? note "/asservatenkammer [drop|get|burn] [Droge] [Reinheit] (Menge)"
     Der BND verfügt über eine Asservatenkammer zum Aufbewahren illegaler Substanzen. Diese kann per Command verwaltet werden.
+
+??? note "/suspectlist [add|remove] [Person] (Grund)"
+    Der BND verfügt über eine VerdächtigenListe. Mit diesem Command können Personen hinzugefügt oder entfernt werden.

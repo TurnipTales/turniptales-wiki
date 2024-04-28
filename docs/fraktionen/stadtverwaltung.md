@@ -24,8 +24,8 @@ Bürgermeisteramt
 
 Verlobung & Hochzeit
 
-??? note "/antrag [Person]"
-    Spieler können sich mit diesem Command verloben. Für die Übernahme des Nachnamen einer Person in einer späteren Ehe ist dabei entscheidend, wer den Command ausführt.
+[//]: # (??? note "/antrag [Person]")
+[//]: # (    Spieler können sich mit diesem Command verloben. Für die Übernahme des Nachnamen einer Person in einer späteren Ehe ist dabei entscheidend, wer den Command ausführt.)
 
 ??? note "/marry [Person 1] [Person 2]"
     Die Stadtverwaltung kann mit diesem Command zwei bereits verlobte Personen miteinander verheiraten.
@@ -40,7 +40,7 @@ Fraktionen
 
 Steuern
 
-??? note "/tax [Steuertyp] [Betrag]"
+??? note "/tax (Steuertyp) (Betrag)"
     Die Stadtverwaltung kann mit diesem Command sämtliche Steuersätze anpassen. Dazu zählen beispielsweise die Lohnsteuer, die Haussteuer oder der Zinssatz.
 
 Lager
@@ -50,3 +50,13 @@ Lager
 
 ??? note "/unrentstorage [Lagerhalle]"
     Die Stadtverwaltung kann mit diesem Command den Mietvertrag eines Spielers für eine Lagerhalle aufheben.
+
+Waffen
+
+??? note "/givewaffenschein [Spieler]"
+    Die Stadtverwaltung kann mit diesem Command einem Spieler einen Waffenschein ausstellen. Der angegebene Spieler benötigt dafür 5.000$ Bargeld.
+
+Haus
+
+??? note "/sellhouse [Hausnummer] [Spieler] [Preis]"
+    Die Stadtverwaltung kann mit diesem Command ein Haus an einen Spieler verkaufen.
