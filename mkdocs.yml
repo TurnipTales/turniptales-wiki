@@ -1,29 +1,10 @@
+# Project information
 site_name: TurnipTales Wiki
+site_url: https://wiki.turniptales.net/
 
-nav:
-  - Allgemein:
-    - Startseite: index.md
-  - Fraktionen:
-      - Allgemein: fraktionen/allgemein.md
-      - Staatliche Fraktionen:
-        - Stadtverwaltung: fraktionen/stadtverwaltung.md
-        - Bundesnachrichtendienst: fraktionen/bundesnachrichtendienst.md
-        - Polizei: fraktionen/polizei.md
-        - Rettungsdienst: fraktionen/rettungsdienst.md
-      - Kriminelle Organisationen:
-        - Cali Kartell: ko/calikartell.md
-        - Elvetias: ko/elvetias.md
-        - La Rose Noire: ko/larosenoire.md
-        - Northside Blood Family: ko/northsidebloodfamily.md
-        - Pruszków Familie: ko/pruszkowfamilie.md
-        - Söldner: ko/söldner.md
-
-
-plugins:
-  - search: 
-      lang: de
-  - git-revision-date-localized:
-      enable_creation_date: true
+# Repository
+repo_url: https://github.com/TurnipTales/turniptales-wiki
+repo_name: turniptales-wiki
 
 extra:
   homepage: https://turniptales.net
@@ -33,47 +14,27 @@ extra:
       name: Forum
     - icon: fontawesome/brands/discord
       link: https://discord.gg/turniptales
-    
-  
-markdown_extensions:
-  - attr_list
-  - tables
-  - md_in_html
-  - admonition
-  - pymdownx.keys
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.details
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - def_list
 
+copyright: "Copyright &copy; 2023 - 2024 TurnipTales"
+
+plugins:
+  - search:
+      lang: de
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript: [ 'imprint.js' ]
+
+# configuration
 theme:
   name: material
   custom_dir: docs/overrides
   logo: icon.png
   favicon: icon.png
   language: de
-  feature:
-    tabs: true
-  features:
-    - navigation.top
-    - navigation.footer
-    - header.autohide
-    - announce.dismiss
-    - navigation.sections
-    - navigation.indexes
-    - toc.follow  
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -91,8 +52,60 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Light-Mode
-  
-extra_css:
-  - stylesheets/extra.css
+  feature:
+    tabs: true
+  features:
+    - navigation.top
+    - navigation.footer
+    - header.autohide
+    - announce.dismiss
+    - navigation.sections
+    - navigation.indexes
+    - toc.follow
 
-extra_javascript: ['imprint.js']
+# extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      #      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.keys
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - def_list
+  - attr_list
+  - tables
+  - md_in_html
+
+# page tree
+nav:
+  - Allgemein:
+      - Startseite: index.md
+  - Gruppierungen:
+      - Allgemein: fraktionen/allgemein.md
+      - Staatliche Fraktionen:
+          - Stadtverwaltung: fraktionen/stadtverwaltung.md
+          - Bundesnachrichtendienst: fraktionen/bundesnachrichtendienst.md
+          - Polizei: fraktionen/polizei.md
+          - Rettungsdienst: fraktionen/rettungsdienst.md
+      - Kriminelle Organisationen:
+          - Cali Kartell: ko/calikartell.md
+          - Elvetias: ko/elvetias.md
+          - La Rose Noire: ko/larosenoire.md
+          - Northside Blood Family: ko/northsidebloodfamily.md
+          - Pruszków Familie: ko/pruszkowfamilie.md
+          - Söldner: ko/söldner.md
+  - Commands:
+      - Gruppierungen:
+          - Fraktionsübergreifend: commands/group/crossfaction.md
+          - Stadtverwaltung: commands/group/cityAdministration.md
