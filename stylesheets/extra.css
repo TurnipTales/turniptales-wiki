@@ -1,0 +1,19 @@
+:root {
+    --md-primary-fg-color: #f8983e;
+    --md-accent-fg-color: #f0be1c;
+}
+
+.md-banner {
+    background-color: var(--md-footer-bg-color);
+}
+
+header {
+    background-image: url("header_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.md-tabs {
+    background-color: var(--md-footer-bg-color);
+}
