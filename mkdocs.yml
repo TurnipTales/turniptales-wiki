@@ -112,7 +112,7 @@ nav:
   - Commands:
       - Spieler: commands/player.md
       - Gruppierungen:
-          - Fraktionsübergreifend: commands/group/crossfaction.md
+          - Fraktionsübergreifend: commands/group/crossgroup.md
           - Stadtverwaltung: commands/group/cityAdministration.md
           - Bundesnachrichtendienst: commands/group/federalIntelligenceService.md
           - Polizei: commands/group/police.md

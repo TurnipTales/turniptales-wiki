@@ -1,5 +1,5 @@
 !!! note ""
-    Diese Fraktion hat fraktionsübergreifende Commands, die sie sich mit anderen Fraktionen teilt. Diese Commands findest du [hier](/commands/group).
+    Diese Gruppierung hat Commands, die sie sich mit anderen Gruppierungen teilt. Diese Commands findest du [hier](crossgroup.md).
 
 ## Bürgermeisteramt
 
@@ -90,8 +90,8 @@ Mit diesem Command kann ein Haus an einen Spieler verkauft werden.
 
 ## Lagerhalle
 
-!!! question ""
-    Dieses Feature ist noch in der Entwicklung.
+!!! example "Entwicklung"
+    Dieses Feature befindet sich noch in der Entwicklung.
 
 ### /rentstorage
 
