@@ -10,7 +10,19 @@ Falls du nicht fündig wurdest, hilft dir unser Support gerne weiter.
 
 <div class="grid cards" markdown>
 
-- :fontawesome-brands-html5: __COMMANDS__
-- :fontawesome-brands-js: __FRAKTIONEN UND ORGANISATIONEN__
+-   :material-account-group-outline:{ .lg .middle } __Gruppierungen__
 
+    ---
+
+    Alle Gruppierungen im Überblick mit deren Features, Funktionen und Aufgaben.
+
+    [:octicons-arrow-right-24: Gruppierungen](#)
+
+-   :octicons-command-palette-16:{ .lg .middle } __Befehle__
+
+    ---
+
+    Alle Befehle im Überblick mit deren Syntax, Parametern und Berechtigungen.
+
+    [:octicons-arrow-right-24: Befehle](commands/player.md)
 </div>
