@@ -1,10 +1,16 @@
-<center>![TurnipTales Logo](icon_small.png "TurnipTales")</center>
+<center>
+![TurnipTales Logo](icon_small.png "TurnipTales")
 
-### <center>**TurnipTales.net**
+## **Willkommen im TurnipTales Wiki!**
 
-!!! info "Willkommen im Wiki"
+Hier findest du Antworten auf alle möglichen Fragen zu unseren Systemen.</br>
+Falls du nicht fündig wurdest, hilft dir unser Support gerne weiter.
 
-    Du befindest dich im offiziellen Wiki von TurnipTales. Hier findest du Antworten auf alle möglichen Fragen zu unseren Systemen. Falls du hier doch nicht fündig werden solltest, hilft dir unser Support gerne weiter.
+**[Webseite](https://turniptales.net/) — [Forum](https://forum.turniptales.net/forum/) — [Discord](https://discord.gg/turniptales)**
 
-### <center>**Offizielle Links**
-<center>**[Webseite](https://turniptales.net/) - [Forum](https://forum.turniptales.net/forum/) - [Discord](https://discord.gg/turniptales)**
+<div class="grid cards" markdown>
+
+- :fontawesome-brands-html5: __COMMANDS__
+- :fontawesome-brands-js: __FRAKTIONEN UND ORGANISATIONEN__
+
+</div>
