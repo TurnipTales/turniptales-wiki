@@ -96,19 +96,14 @@ nav:
   - TurnipTales: https://turniptales.net/
   - Übersicht: index.md
   - Gruppierungen:
-      - Allgemein: fraktionen/allgemein.md
+      - Allgemein: groups/overview.md
       - Staatliche Fraktionen:
-          - Stadtverwaltung: fraktionen/stadtverwaltung.md
-          - Bundesnachrichtendienst: fraktionen/bundesnachrichtendienst.md
-          - Polizei: fraktionen/polizei.md
-          - Rettungsdienst: fraktionen/rettungsdienst.md
+          - Stadtverwaltung: groups/cityAdministration.md
+          - Bundesnachrichtendienst: groups/federalIntelligenceService.md
+          - Polizei: groups/police.md
+          - Rettungsdienst: groups/rescueService.md
       - Kriminelle Organisationen:
-          - Cali Kartell: ko/calikartell.md
-          - Elvetias: ko/elvetias.md
-          - La Rose Noire: ko/larosenoire.md
-          - Northside Blood Family: ko/northsidebloodfamily.md
-          - Pruszków Familie: ko/pruszkowfamilie.md
-          - Söldner: ko/söldner.md
+          - Allgemein: groups/criminalOrganisation.md
   - Commands:
       - Spieler: commands/player.md
       - Gruppierungen:
