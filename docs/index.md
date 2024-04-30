@@ -1,23 +1,16 @@
-# Welcome to MkDocs
+<center>
+![TurnipTales Logo](icon_small.png "TurnipTales")
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## **Willkommen im TurnipTales Wiki!**
 
-## Commands
+Hier findest du Antworten auf alle möglichen Fragen zu unseren Systemen.</br>
+Falls du nicht fündig wurdest, hilft dir unser Support gerne weiter.
 
-??? example "Test"
+**[Webseite](https://turniptales.net/) — [Forum](https://forum.turniptales.net/forum/) — [Discord](https://discord.gg/turniptales)**
 
-    Hallo
+<div class="grid cards" markdown>
 
-diuahfgiueg
+- :fontawesome-brands-html5: __COMMANDS__
+- :fontawesome-brands-js: __FRAKTIONEN UND ORGANISATIONEN__
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+</div>
